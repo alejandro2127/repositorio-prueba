@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+ul{
+  padding: 0px;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: #000;
+}
+body{
+  background-image: url("../img/bg-2.png");
+}
+
+/* cabecera */
+header{
+  padding: 0 20px;
+  background-color: red;
+  background-size: 1140px;
+  overflow: hidden;
+  margin: 0 auto; /*centrarun bloque*/
+}
+.registros{
+  text-align: right;
+}
+.logo{
+  padding-top: 7px;
+  overflow: hidden;
+  float: left;
+}
+.menu{
+  margin-left: 20px;
+  overflow: hidden;
+  float: left;
+}
+.registros li{
+  float: right;
+  overflow: hidden;
+}
+.menu li{
+  float: left;
+  overflow: hidden;
+  margin-right: 5px;
+}
+article{
+  width: 800px;
+  float: right;
+}
+/*container*/
+.container{
+  width: 1140px;
+  margin: 20px 0 auto;
+  overflow: hidden;
+}
+.product{
+  width: 380px;
+  float: left;
+  margin: 10px
+}
+
+/*main*/
+main{
+  background-color: white;
+  width: 800px;
+  margin-right: 20px;
+  overflow: hidden;
+  float: left;
+}
+
+/* aside */
+aside{
+  width: 320px;
+  overflow: hidden;
+  float: right;
+}
+.product:nth-child(even){
+  margin-right: 0;
+}
